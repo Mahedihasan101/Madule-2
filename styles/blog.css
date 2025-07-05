@@ -1,7 +1,9 @@
 .Heading {
-  border: 20px solid #7c83ad;
-  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 15px #000000;
+  margin: 20px;
   padding: 20px;
+  backdrop-filter: blur(8px);
 }
 h3 {
   text-align: center;
@@ -18,5 +20,8 @@ label {
 .image-center{
 display: flex;
 align-items: center;
-flex-direction: column;   
+flex-direction: column;  
+}
+.image-center img {
+    border-radius: 5px;
 }
